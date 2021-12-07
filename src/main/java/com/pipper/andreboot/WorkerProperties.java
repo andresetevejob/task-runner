@@ -6,6 +6,4 @@ import java.util.HashMap;
 
 @ConfigurationProperties("piper.worker")
 public class WorkerProperties extends HashMap<String, Object> {
-
-
 }

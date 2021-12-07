@@ -10,5 +10,5 @@ import org.springframework.stereotype.Component;
 public class PiperProperties {
     @Getter
     @Setter
-    private SerializationProperties serializationProperties;
+    private SerializationProperties serialization;
 }

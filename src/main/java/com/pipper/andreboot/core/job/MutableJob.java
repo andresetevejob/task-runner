@@ -13,10 +13,8 @@ public class MutableJob implements Job{
     private final String id;
     private final Pipeline pipeline;
     private final Date creationDate;
-
     private JobStatus status = JobStatus.CREATED;
     private Map<String,JobTask> execution = new LinkedHashMap<>();
-
     private Date completionDate;
     private Date startDate;
 
